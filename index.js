@@ -120,10 +120,10 @@ Baby.prototype.play = function(){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Know the scope: if you create a "this" in the global scope you can use it in any function. If you create "this" in a function you can only use it in that function
+  2. Implicit binding: occurs when you are using dot notation in a function
+  3. Explicit binding: happens when you use .call, .apply or . bind on a function
+  4. the new keyword: You can use new to assign new characteristics to the parent contructor
 */
 
 
